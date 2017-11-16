@@ -938,9 +938,19 @@ h3.top-zero{
 }
 
 .progress-bar.progress-bar-primary{
-  background: #dab074;
+  background: #4ad;
+}
+.progress-bar.progress-bar-prac{
+  background: #4bd;
 }
 
+
+.btn-info {
+  background: #4ae;
+}
+.btn-success {
+  background: #4a5;
+}
 
 
 /*************************
