@@ -517,7 +517,7 @@ ul.sub-menu {
 **************************/
 
 #home-slider {
-  background: url(../images/home/slider-bg3.png) 0 100% no-repeat;
+  background: url(../images/home/header.png) 0 100% no-repeat;
   background-size: contain;
   position: relative;
 }
