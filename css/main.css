@@ -2813,8 +2813,8 @@ input::-moz-focus-inner {
   border-radius: 2em;
 }
 
-.lavender {
-  background-color: rgba(94, 23, 207, 0.1);
+.lavender:hover {
+  color: rgba(94, 23, 207, 0.8);
 }
 
 /* item-folio thumb
