@@ -1960,8 +1960,10 @@ input::-moz-focus-inner {
   top: 20%;
   right: 0;
   bottom: 0;
-  left: 50%;
+  left: 60%;
   border-radius: 1em;
+  /* width:40%;
+  height:60%; */
 }
 
 .intro-pic::before {
@@ -2376,8 +2378,8 @@ input::-moz-focus-inner {
 @media screen and (max-width:1200px) {
 
   .s-about {
-    padding-top: 6rem;
-    padding-bottom: 0rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
   }
 
   .about-experience__timeline .column:first-child {
