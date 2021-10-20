@@ -1959,10 +1959,10 @@ input::-moz-focus-inner {
   position: absolute;
   top: 20%;
   right: 0;
-  bottom: 0;
+  bottom: 10%;
   left: 60%;
   border-radius: 1em;
-  /* width:40%;
+  /* width:30%;
   height:60%; */
 }
 
@@ -1975,8 +1975,8 @@ input::-moz-focus-inner {
   height: 100%;
   background-color: #ffffff;
   opacity: .2;
-  /* border: 1px solid #ffffff; */
-  /* border-radius: 2em; */
+  border: 1px solid #ffffff;
+  border-radius: 1em;
 }
 
 .intro-grid {
