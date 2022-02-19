@@ -5,7 +5,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>J Lee | Portfolio</title>
+    <title>Jenny Lee | Portfolio</title>
     <meta name="description" content="User Experience Design">
     <meta name="author" content="Jenny J Lee">
 
@@ -44,20 +44,20 @@
     <header class="s-header">
 
         <div class="header-logo">
-            <a class="site-logo" href="index.html">
-              <!-- <img src="favicon-32x32.png"> -->
-              <font style="font-size:1.3em;">JJL</font>
-                <!-- <img src="images/logo.svg" alt="Homepage"> -->
+            <a href="index.html">
+                <img src="images/logo.png" alt="Jenny Lee">
+                <img class="site-logo" src="images/logo-hover.png" alt="Jenny Lee">
             </a>
         </div>
 
         <nav class="header-nav-wrap">
             <ul class="header-main-nav">
-                <li class="current"><a href="#" title="intro"><b>[<mark> My Works </mark>]</b></a></li>
-                <li><a href="about.html" title="about">About Me</a></li>
+                <li class="current"><a href="#" title="intro"><b>[<mark> UX / Product </mark>]</b></a></li>
+                <li><a href="visual-design.html" title="about">Visual Designs</a></li>
+                <li><a href="about.html" title="about">About</a></li>
                 <!-- <li><a class="smoothscroll" href="#services" title="services">Services</a></li> -->
                 <!-- <li><a class="smoothscroll" href="#works" title="works">Works</a></li> -->
-                <li><a href="funbox.html" title="fun box">My Sandbox</a></li>
+                <li><a href="funbox.html" title="fun box">Sandbox</a></li>
             </ul>
 
             <ul class="header-social">
@@ -79,20 +79,38 @@
 
         <div class="row heading-block heading-block--center">
             <div class="column large-full">
-                <h2 class="section-heading section-heading--centerbottom">My Works</h2>
-                <!-- <p class="section-desc">
-                    Here are some cherry picked works framed across the wall below.
-                </p> -->
+              <!-- <img src="images/logo-hover.png" style="opacity:0.8" width=25px></img> -->
+                <h2 class="section-heading section-heading--centerbottom">UX / Product</h2>
             </div>
         </div> <!-- end heading-block -->
 
         <div class="masonry-wrap">
-
             <div class="masonry">
-                <div class="grid-sizer"></div>
 
                 <div class="masonry__brick">
                     <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="rha.html" class="thumb-link" title="Anise Health" data-size="1050x700">
+                                <img src="images/portfolio/rha/rha-logo.png" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                <b>Refugee Health Alliance</b><br/> Mobile app for volunteer onboarding
+                            </h4><br>
+                            <p class="item-folio__cat">
+                                UX + UI / Mobile Design
+                            </p>
+                        </div>
+
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
                         <div class="item-folio__thumb">
                             <a href="anise-health.html" class="thumb-link" title="Anise Health" data-size="1050x700">
                                 <img src="images/portfolio/anise/anise-health.png" alt="">
@@ -101,10 +119,10 @@
 
                         <div class="item-folio__text">
                             <h4 class="item-folio__title">
-                                Anise Health User Portal
+                                <b>Anise Health</b> <br/>Client portal for pilot program
                             </h4><br>
                             <p class="item-folio__cat">
-                                UI + UX / Visual Design
+                                UX + UI / Website Design
                             </p>
                         </div>
 
@@ -114,39 +132,19 @@
                 <div class="masonry__brick">
                     <div class="item-folio">
                         <div class="item-folio__thumb">
-                            <a href="fiatlux.html" class="thumb-link" title="iGEM" data-size="1050x700">
-                                <img src="images/portfolio/igem/igem.png" alt="">
+                            <a href="kellys-beauty-nail-spa.html" class="thumb-link" title="iGEM" data-size="1050x700">
+                                <img src="images/portfolio/kellys/kellys.png" alt="">
                             </a>
                         </div>
 
                         <div class="item-folio__text">
                             <h4 class="item-folio__title">
-                                Fiat Lux
+                                <b>Kelly's Beauty Nail Spa</b><br/> Website with booking system + New branding
                             </h4><br>
                             <p class="item-folio__cat">
-                                Logo Design / Visual & Web Design
+                                UX + UI / Website Design, Branding
                             </p>
                         </div>
-                    </div>
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-                        <div class="item-folio__thumb">
-                            <!-- <a href="#" class="thumb-link" title="Kite" data-size="1050x700"> -->
-                                <img src="images/portfolio/kite/kite.png" alt="">
-                            <!-- </a> -->
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                Kite iOS App (Coming Soon)
-                            </h4><br>
-                            <p class="item-folio__cat">
-                                UI + UX / Mobile Design
-                            </p>
-                        </div>
-
                     </div>
                 </div> <!-- end masonry__brick -->
 
@@ -164,7 +162,7 @@
 
         <div class="row heading-block">
             <div class="column large-full">
-                <h2 class="section-heading" style="color:#000000">Scribble a Quick Message</h2>
+                <h2 class="section-heading">Scribble me a Message</h2>
             </div>
         </div>
 
@@ -185,7 +183,7 @@
         <div class="row">
             <div class="column large-full ss-copyright">
                 <span>© Copyright Jenny 2021</span>
-                <span>Many thanks: <a target="_blank" href="https://www.styleshout.com/">StyleShout</a></span>
+                <span>Base: <a target="_blank" href="https://www.styleshout.com/">StyleShout</a></span>
             </div>
 
             <div class="ss-go-top">

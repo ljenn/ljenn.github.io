@@ -5,7 +5,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>J Lee | My Sandbox</title>
+    <title>Jenny Lee | Sandbox</title>
     <meta name="description" content="User Experience Design">
     <meta name="author" content="Jenny J Lee">
 
@@ -44,20 +44,20 @@
     <header class="s-header">
 
         <div class="header-logo">
-            <a class="site-logo" href="index.html">
-              <img src="favicon-32x32.png">
-              <font style="font-size:1.6em;"><strong> J Lee</strong></font>
-                <!-- <img src="images/logo.svg" alt="Homepage"> -->
+            <a href="index.html">
+                <img src="images/logo.png" alt="Jenny Lee">
+                <img class="site-logo" src="images/logo-hover.png" alt="Jenny Lee">
             </a>
         </div>
 
         <nav class="header-nav-wrap">
             <ul class="header-main-nav">
-                <li><a href="index.html" title="intro">My Works</a></li>
-                <li><a href="about.html" title="about">About Me</a></li>
+                <li><a href="index.html" title="intro">UX / Product</a></li>
+                <li><a href="visual-design.html" title="about">Visual Designs</a></li>
+                <li><a href="about.html" title="about">About</a></li>
                 <!-- <li><a class="smoothscroll" href="#services" title="services">Services</a></li> -->
                 <!-- <li><a class="smoothscroll" href="#works" title="works">Works</a></li> -->
-                <li class="current"><a href"#"><b>[<mark> My Sandbox </mark>]</b></a></li>
+                <li class="current"><a href"#"><b>[<mark> Sandbox </mark>]</b></a></li>
             </ul>
 
             <ul class="header-social">
@@ -81,8 +81,8 @@
             <div class="column large-full">
                 <h2 class="section-heading section-heading--centerbottom">My Sandbox</h2>
                 <p>
-                  The side projects on this page are not all UX-related, but they reflect a part of who I am. <br>
-                  In my free time, I build applications that hover at the intersection of education, biology, and tech.
+                  These past projects aren't all design related, but they reflect a part of who I am. <br>
+                  Sometimes I build applications that hover at the intersection between tech x education/biology/social health/etc.
                 </p>
             </div>
         </div> <!-- end heading-block -->
@@ -117,7 +117,7 @@
                 <div class="masonry__brick">
                     <div class="item-folio">
                         <div class="item-folio__thumb">
-                            <a target="_blank" href="https://jigar-p.github.io/Kumas/" class="thumb-link" title="KUMAS" data-size="1050x700">
+                            <a target="_blank" href="docs/kumas.pdf" class="thumb-link" title="KUMAS" data-size="1050x700">
                                 <img src="images/funbox/kumas.png" alt="">
                             </a>
                         </div>
@@ -127,10 +127,10 @@
                                 KUMAS: Dementia Tracking App
                             </h4><br>
                             <p class="item-folio__cat">
-                              <b>Documentation Design • Writing • PCA Analysis</b>
+                              <b>Documentation Design • Writing • PCA Analysis</b><br/>
                                 <i>Health Hack 2017 - Finalist, Top 8 <br>
                                 University of California San Diego</i><br>
-                                <a target="_blank" href="docs/kumas.pdf"><b>Documentation Link</b></a><br><br>
+                                <a target="_blank" href="https://jigar-p.github.io/Kumas/"><b>App Link</b></a><br><br>
                                 Track the fluctuating nature of dementia through easy access cognitive assessments for convenient outpatient monitoring
                             </p>
                         </div>
@@ -155,6 +155,29 @@
                               <b>Documentation Design • Writing • Python</b>
                               <a target="_blank" href="images/funbox/terex.pdf"><b>Documentation Link</b></a><br><br>
                               Identify transposable element with this cool Python pipeline.
+                            </p>
+                        </div>
+
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+                <!-- CIRA -->
+                <div class="masonry__brick">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a target="_blank" href="https://www.youtube.com/watch?v=HTApAONeeUk&ab_channel=jenny" class="thumb-link" title="CIRA" data-size="1050x700">
+                                <img src="images/funbox/cira.jpg" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                CIRA: Emotional Recognition AI Chatbot
+                            </h4><br>
+                            <p class="item-folio__cat">
+                              <b>Python • Jupyter Notebook</b><br>
+                                <i>Junction International Hackathon 2018</i><br><br>
+                                Talk to CIRA the AI Chatbot that reads your mood! CIRA categorizes user mood by running your public posts from VK (Russian social network platform) through a trained NLP model, then responds with unique mood-based responses.
                             </p>
                         </div>
 
@@ -205,29 +228,6 @@
                     </div>
                 </div> <!-- end masonry__brick -->
 
-                <!-- CIRA -->
-                <div class="masonry__brick">
-                    <div class="item-folio">
-                        <div class="item-folio__thumb">
-                            <a target="_blank" href="https://www.youtube.com/watch?v=HTApAONeeUk&ab_channel=jenny" class="thumb-link" title="CIRA" data-size="1050x700">
-                                <img src="images/funbox/cira.jpg" alt="">
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                CIRA: Emotional Recognition AI Chatbot
-                            </h4><br>
-                            <p class="item-folio__cat">
-                              <b>Python • Jupyter Notebook</b><br>
-                                <i>Junction International Hackathon 2018</i><br><br>
-                                Talk to CIRA the AI Chatbot that reads your mood! CIRA categorizes user mood by running your public posts from VK (Russian social network platform) through a trained NLP model, then responds with unique mood-based responses.
-                            </p>
-                        </div>
-
-                    </div>
-                </div> <!-- end masonry__brick -->
-
                 <!-- Drosophila Circadian Clock -->
                 <div class="masonry__brick">
                     <div class="item-folio">
@@ -264,7 +264,7 @@
 
         <div class="row heading-block">
             <div class="column large-full">
-                <h2 class="section-heading" style="color:#000000">Scribble a Quick Message</h2>
+                <h2 class="section-heading">Scribble me a Message</h2>
             </div>
         </div>
 
@@ -285,7 +285,7 @@
         <div class="row">
             <div class="column large-full ss-copyright">
                 <span>© Copyright Jenny 2021</span>
-                <span>Many thanks: <a target="_blank" href="https://www.styleshout.com/">StyleShout</a></span>
+                <span>Base: <a target="_blank" href="https://www.styleshout.com/">StyleShout</a></span>
             </div>
 
             <div class="ss-go-top">
