@@ -1553,7 +1553,7 @@ input::-moz-focus-inner {
   font-family: "Syne", sans-serif;
   font-weight: 600;
   font-size: 1.7rem;
-  line-height: 1.176;
+  /* line-height: 1.176; */
   text-transform: uppercase;
   letter-spacing: .5rem;
   margin-top: 0;
@@ -1582,10 +1582,10 @@ input::-moz-focus-inner {
 }
 
 .section-heading--centerbottom::before {
-  margin-left: -75px;
+  /* margin-left: -75px; */
   top: auto;
   bottom: 0;
-  left: 50%;
+  /* left: 50%; */
 }
 
 .section-desc {
@@ -2064,7 +2064,7 @@ input::-moz-focus-inner {
   height:300px;
   border: 0.2rem solid #351C75;
   opacity: 0.8;
-  z-index:1;
+  /* z-index:1; */
 }
 
 .intro-pic::before {
@@ -2078,7 +2078,7 @@ input::-moz-focus-inner {
   opacity: .15;
   border: 1px solid #b2a399;
   border-radius: 1em;
-  z-index:90;
+  /* z-index:90; */
 }
 
 /* .intro-grid {
@@ -2095,8 +2095,8 @@ input::-moz-focus-inner {
 .intro-text {
   -webkit-transform: translate3d(0, -3.6rem, 0);
   transform: translate3d(0, -3.6rem, 0);
-  position: static;
-  z-index: 99;
+  position: absolute;
+  /* z-index: 99; */
 }
 
 .intro-text h3 {
@@ -2110,7 +2110,7 @@ input::-moz-focus-inner {
   color: #000000;
   margin-top: 0;
   margin-left: 40%;
-  z-index:99;
+  /* z-index:99; */
 }
 
 .intro-text h1 {
@@ -2122,7 +2122,7 @@ input::-moz-focus-inner {
   color: #330080;
   margin-top: 0;
   margin-left: 40%;
-  z-index:99;
+  /* z-index:99; */
 }
 
 .intro-scroll {
@@ -2133,9 +2133,9 @@ input::-moz-focus-inner {
   text-transform: uppercase;
   letter-spacing: .3rem;
   position: absolute;
-  bottom: 8rem;
+  bottom: 10rem;
   left: 24px;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .intro-scroll a {
