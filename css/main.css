@@ -2047,8 +2047,8 @@ input::-moz-focus-inner {
   background-color: #b2a399;
   background-repeat: no-repeat;
   background-position: top center;
-  background-image: url(../images/jenny-pic.jpg);
-  background-size: cover;
+  background-image: url(../android-chrome-512x512.png);
+  background-size:cover;
   position: absolute;
   /* float: left; */
   top: 30%;
