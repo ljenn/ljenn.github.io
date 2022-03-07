@@ -52,7 +52,7 @@
  *
  * ------------------------------------------------------------------- */
 html {
-  font-size: 10px;
+  font-size: 7pt;
 }
 
 @media screen and (max-width:400px) {
@@ -84,7 +84,8 @@ body {
 }
 
 body {
-  background: #b2a399;
+  background: #cfc6bf;
+  /* background: #b2a399; */
   /* background: #ffffff; */
   font-family: 'Roboto', sans-serif;
   font-size: 1.7rem;
@@ -94,6 +95,7 @@ body {
   color: #000000;
   margin: 0;
   padding: 0;
+  letter-spacing: 0.05em;
 }
 
 /* -------------------------------------------------------------------
@@ -138,7 +140,7 @@ a span {
 } */
 
 .s-about a:hover, .s-about a:focus, .s-about a:active {
-  background-color: #cfc6bf;
+  background-color: #ffffff;
   color: #351C75;
   /* color: rgba(0,0,0,0.5); */
 }
@@ -217,6 +219,8 @@ h3, .h3 {
 h4, .h4 {
   font-size: 2.1rem;
   line-height: 1.286;
+  text-decoration: underline;
+  text-underline-offset: 0.4em;
 }
 
 h5, .h5 {
@@ -1606,6 +1610,10 @@ input::-moz-focus-inner {
   color: #000000;
 }
 
+h4.item-title {
+  text-decoration: none;
+}
+
 .ss-dark .section-heading,
 .ss-dark .section-desc {
   color: #000000;
@@ -1693,7 +1701,8 @@ input::-moz-focus-inner {
 }
 
 .s-header.sticky {
-  background-color: #b2a399;
+  background-color: #cfc6bf;
+  /* background-color: #b2a399; */
   position: fixed;
   top: 0;
   left: 0;
@@ -1942,7 +1951,8 @@ input::-moz-focus-inner {
 
 @media screen and (max-width:800px) {
   .s-header {
-    background-color: #b2a399;
+    background-color: #cfc6bf;
+    /* background-color: #b2a399; */
     position: fixed;
     top: 0;
   }
@@ -2029,7 +2039,8 @@ input::-moz-focus-inner {
   width: 100%;
   height: 100vh;
   min-height: 792px;
-  background-color: #b2a399;
+  /* background-color: #b2a399; */
+  background-color: #cfc6bf;
   /* f5f5f5 */
 }
 
@@ -2044,7 +2055,8 @@ input::-moz-focus-inner {
 }
 
 .intro-pic {
-  background-color: #b2a399;
+  background-color: #cfc6bf;
+  /* background-color: #b2a399; */
   background-repeat: no-repeat;
   background-position: top center;
   background-image: url(../images/jenny-pic.jpg);
@@ -2074,9 +2086,11 @@ input::-moz-focus-inner {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #b2a399;
+  background-color: #cfc6bf;
+  /* background-color: #b2a399; */
   opacity: .15;
-  border: 1px solid #b2a399;
+  /* border: 1px solid #b2a399; */
+  border: 1px solid #cfc6bf;
   border-radius: 1em;
   /* z-index:90; */
 }
@@ -2114,8 +2128,8 @@ input::-moz-focus-inner {
 }
 
 .intro-text h1 {
-  /* font-size: 7.8rem; */
-  font-size: 10%;
+  font-size: 7.8rem;
+  /* font-size: 10%; */
   font-weight: 500;
   /* line-height: 1.179; */
   line-height: 1.179;
@@ -2323,7 +2337,8 @@ input::-moz-focus-inner {
 .s-about {
   padding-top: 8rem;
   padding-bottom: 2rem;
-  background-color: #b2a399;
+  /* background-color: #b2a399; */
+  background-color: #cfc6bf;
 }
 
 .s-about .row {
@@ -2701,7 +2716,7 @@ input::-moz-focus-inner {
 
 .s-services h4 {
   font-weight: 400;
-  color: #000000;
+  color: #351C75;
 }
 
 .s-services a {
@@ -2904,7 +2919,8 @@ input::-moz-focus-inner {
 .s-works {
   padding-top: 20rem;
   /* padding-bottom: 6rem; */
-  background-color: #b2a399;
+  /* background-color: #b2a399; */
+  background-color: #cfc6bf;
   /* e2d8d0 */
 }
 
@@ -3058,6 +3074,7 @@ input::-moz-focus-inner {
 .item-folio__title {
   font-weight: 500;
   color: #000000;
+  text-decoration: none;
 }
 
 .item-folio__cat {
@@ -3482,7 +3499,7 @@ input::-moz-focus-inner {
   /* color: rgba(94, 23, 207, 0.8); */
   /* border-bottom: 1px solid #5e17cf; */
   text-decoration: none;
-  background-color: #b2a399;
+  background-color: #ffffff;
 }
 
 .contact-email {
@@ -3648,7 +3665,8 @@ footer {
   color: #e5e5e5;
   position: relative;
   text-align: right;
-  background-color: #b2a399;
+  /* background-color: #b2a399; */
+  background-color: #cfc6bf;
   /* background-color: #ffffff; */
 }
 
